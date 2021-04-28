@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sail&display=swap');
+
+* {
+    margin: 0;
+    height: auto;
+    scroll-behavior: smooth;
+}
+
+div{
+    height: 100vh;
+    text-align: center;
+    display: fixed;
+}
+
+.text_sec01{
+    font-family: 'Sail', cursive;
+    color: ivory;
+    font-size: 50px;
+    padding-top: 40vh;
+}
+
+.text_sec02{
+    font-family: 'Sail', cursive;
+    color: ivory;
+    font-size: 50px;
+    padding-top: 30vh;
+    padding-bottom: 2%;
+}
+
+.text_sec03{
+    font-family: 'Sail', cursive;
+    color: ivory;
+    font-size: 50px;
+    padding-top: 13vh;
+    padding-bottom: 2%;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    color: ivory;
+    background-color:slategray;
+    border:slategray;
+    border-radius: 10px;
+    
+}
+section{
+    height: 100vh;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+}
+
+#sec01{
+background-image: url(imagens/Fundo_Sec01.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#sec02{
+    background-color:darkslategray;
+}
+
+#sec03{
+    background-color: dimgray;
+}
