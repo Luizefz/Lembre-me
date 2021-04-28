@@ -41,6 +41,8 @@ button{
     background-color:slategray;
     border:slategray;
     border-radius: 10px;
+    width: 40px;
+    height: 5px;
     
 }
 section{
