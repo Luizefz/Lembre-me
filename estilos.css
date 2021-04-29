@@ -15,7 +15,7 @@ div{
 .text_sec01{
     font-family: 'Sail', cursive;
     color: ivory;
-    font-size: 50px;
+    font-size: 58px;
     padding-top: 40vh;
 }
 
@@ -23,7 +23,7 @@ div{
     font-family: 'Sail', cursive;
     color: ivory;
     font-size: 50px;
-    padding-top: 30vh;
+    padding-top: 25vh;
     padding-bottom: 2%;
 }
 
@@ -31,27 +31,76 @@ div{
     font-family: 'Sail', cursive;
     color: ivory;
     font-size: 50px;
-    padding-top: 13vh;
+    padding-top: 8vh;
     padding-bottom: 2%;
 }
 
 button{
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     color: ivory;
-    background-color:slategray;
+    background-color:rgba(112, 128, 144, 0.712);
     border:slategray;
     border-radius: 10px;
-    width: 125px;
-    height: 23px;
-    
+    width: 150px;
+    height: 30px;
+    margin-top: 1%;
+    cursor: pointer;
 }
+
+button:hover{
+    transition: 0.3s ease 0s;
+    background-color: rgba(106, 109, 112, 0.959);
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgb(22, 46, 46);
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(255, 255, 240, 0.705);
+    border-style: groove;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus::placeholder{
+    transition: 0.3s ease 0s;
+    color: transparent;
+}
+
+textarea:focus::placeholder{
+    transition: 0.3s ease 0s;
+    color: transparent;
+}
+
+textarea{
+    width: 300px;
+    text-align: center;
+    margin-top: 1%;
+    background-color: rgb(22, 46, 46);
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 240, 0.705);
+    border: none;
+    cursor: text;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
 section{
     height: 100vh;
 }
 
 ::placeholder{
     font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 240, 0.705);
 }
+
 
 #sec01{
 background-image: url(imagens/Fundo_Sec01.jpg);
