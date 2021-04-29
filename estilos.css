@@ -90,6 +90,7 @@ textarea{
     cursor: text;
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
+    padding: 6px;
 }
 
 section{
